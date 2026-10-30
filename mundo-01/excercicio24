@@ -1,0 +1,6 @@
+# Exercício 24 – Verificando as primeiras letras de um texto
+cid = str(input("Em que cidade você nasceu? ")).strip()
+
+# Passamos tudo para maiúsculo para evitar erros se o usuário digitar "santo" ou "Santo"
+# Pegamos os primeiros 5 caracteres e verificamos se são iguais a "SANTO"
+print(cid[:5].upper() == "SANTO")
